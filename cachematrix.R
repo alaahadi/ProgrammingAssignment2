@@ -17,8 +17,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
-
-
 ## Write a short comment describing this function
 ## cashSolve computes the inverse of the special "matrix" returned by makeCacheMatrix
 
@@ -34,6 +32,3 @@ cacheSolve <- function(x, ...) {
   x$setinverse(n)
   n
 }
-
-       
-
